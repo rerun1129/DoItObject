@@ -11,7 +11,8 @@ public class Test {
         //Calc calc1 = new Calc();            //인터페이스는 인스턴스 생성이 안됨
         //Calc calc2 = new Calculator();      //또한 추상메서드도 인스턴스 생성이 안됨
 
-        System.out.println(calc.add(num1, num2));
+        //System.out.println(calc.add(num1, num2));
+        calc.description();
 
 
     }
